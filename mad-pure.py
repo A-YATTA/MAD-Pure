@@ -17,6 +17,7 @@ URL = "https://apkpure.com"
 out_dir = "temp"
 file_list_apks = "apps_names_example.txt"
 aapt_path = "aapt2"
+MAX_NB_THREADS = 8
 nb_threads = 4
 
 
@@ -99,20 +100,22 @@ def dump_info(aapt_path, apk_path):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="MDMA-Pure",
+    parser = argparse.ArgumentParser(description="MAD-Pure",
                                      formatter_class=argparse.RawTextHelpFormatter)
 
     parser.add_argument('-f', '--file', dest="file_list_apks",
-                        help='File with applications name', default=file_list_apks)
+                        help='File with applications name. Default: ' + file_list_apks,
+                        default=file_list_apks)
 
     parser.add_argument('-o', '--out-dir', dest="out_dir",
-                        help='Directory where apks will be stored', default=out_dir)
+                        help='Directory where apks will be stored. Default: ' + out_dir,
+                        default=out_dir)
 
     parser.add_argument('-a', '--aapt2-path', dest="aapt_path",
-                        help='Path of aapt2 binary')
+                        help='Path of aapt2 binary. Default: check the PATH env')
 
     parser.add_argument('-t', '--threads', dest="nb_threads",
-                        help='Number of threads to use')
+                        help='Number of threads to use, value between 1 and 8. Default: 4')
 
     args = parser.parse_args()
 
@@ -131,5 +134,7 @@ if __name__ == "__main__":
 
     if args.nb_threads:
         nb_threads = int(args.nb_threads)
+        if nb_threads < 0 or nb_threads > MAX_NB_THREADS:
+            print("Max threads to use is %s" % MAX_NB_THREADS)
 
     process(file_list_apks, out_dir, nb_threads)
