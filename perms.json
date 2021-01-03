@@ -1,0 +1,3357 @@
+{
+    "com.google.android.gms.permission.CAR_VENDOR_EXTENSION": {
+        "description": "Access your car's vendor channel to exchange car-specific information",
+        "label": "car vendor channel",
+        "protection_lvl": "dangerous"
+    },
+    "com.google.android.gms.permission.CAR_MILEAGE": {
+        "description": "Access your car's mileage information",
+        "label": "car mileage",
+        "protection_lvl": "dangerous"
+    },
+    "com.google.android.gms.permission.CAR_FUEL": {
+        "description": "Access your car's fuel level information",
+        "label": "car fuel level",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.WRITE_CONTACTS": {
+        "description": "Allows the app to modify the data about your contacts stored on your phone, including the frequency with which you've called, emailed, or communicated in other ways with specific contacts. This permission allows apps to delete contact data.",
+        "label": "modify your contacts",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.GET_ACCOUNTS": {
+        "description": "Allows the app to get the list of accounts known by the phone. This may include any accounts created by applications you have installed.",
+        "label": "find accounts on the device",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.READ_CONTACTS": {
+        "description": "Allows the app to read data about your contacts stored on your phone, including the frequency with which you've called, emailed, or communicated in other ways with specific individuals. This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge.",
+        "label": "read your contacts",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.ACCESS_UCE_OPTIONS_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ANSWER_PHONE_CALLS": {
+        "description": "Allows the app to answer an incoming phone call.",
+        "label": "answer phone calls",
+        "protection_lvl": "dangerous|runtime"
+    },
+    "android.permission.READ_PHONE_NUMBERS": {
+        "description": "Allows the app to access the phone numbers of the device.",
+        "label": "read phone numbers",
+        "protection_lvl": "dangerous|instant"
+    },
+    "com.mediatek.permission.CTA_CONFERENCE_CALL": {
+        "description": "Allows the app to initiate multi-party calls. This may result in unexpected charges. Malicious apps may cost you money by initiate multi-party calls without your confirmation.",
+        "label": "initiate multi-party calls",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.READ_PHONE_STATE": {
+        "description": "Allows the app to access the phone features of the device. This permission allows the app to determine the phone number and device IDs, whether a call is active, and the remote number connected by a call.",
+        "label": "read phone status and identity",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.CALL_PHONE": {
+        "description": "Allows the app to call phone numbers without your intervention. This may result in unexpected charges or calls. Note that this doesn't allow the app to call emergency numbers. Malicious apps may cost you money by making calls without your confirmation.",
+        "label": "directly call phone numbers",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.ACCESS_UCE_PRESENCE_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCEPT_HANDOVER": {
+        "description": "Allows the app to continue a call which was started in another app.",
+        "label": null,
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.USE_SIP": {
+        "description": "Allows the app to make and receive SIP calls.",
+        "label": "make/receive SIP calls",
+        "protection_lvl": "dangerous"
+    },
+    "com.android.voicemail.permission.ADD_VOICEMAIL": {
+        "description": "Allows the app to add messages to your voicemail inbox.",
+        "label": "add voicemail",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.READ_CALENDAR": {
+        "description": "This app can read all calendar events stored on your phone and share or save your calendar data.",
+        "label": "Read calendar events and details",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.WRITE_CALENDAR": {
+        "description": "This app can add, remove, or change calendar events on your phone. This app can send messages that may appear to come from calendar owners, or change events without notifying their owners.",
+        "label": "add or modify calendar events and send email to guests without owners' knowledge",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.READ_CALL_LOG": {
+        "description": "This app can read your call history.",
+        "label": "read call log",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.WRITE_CALL_LOG": {
+        "description": "Allows the app to modify your phone's call log, including data about incoming and outgoing calls. Malicious apps may use this to erase or modify your call log.",
+        "label": "write call log",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.PROCESS_OUTGOING_CALLS": {
+        "description": "Allows the app to see the number being dialed during an outgoing call with the option to redirect the call to a different number or abort the call altogether.",
+        "label": "reroute outgoing calls",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.CAMERA": {
+        "description": "This app can take pictures and record videos using the camera at any time.",
+        "label": "take pictures and videos",
+        "protection_lvl": "dangerous|instant"
+    },
+    "com.mediatek.permission.CTA_SEND_EMAIL": {
+        "description": "Allows the app to send emails. This may result in unexpected cellular data consuming. Malicious apps may cost you money by sending emails without your confirmation.",
+        "label": "send emails",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.BODY_SENSORS": {
+        "description": "Allows the app to access data from sensors that monitor your physical condition, such as your heart rate.",
+        "label": "access body sensors (like heart rate monitors)",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.USE_FINGERPRINT": {
+        "description": "Allows the app to use fingerprint hardware for authentication",
+        "label": "use fingerprint hardware",
+        "protection_lvl": "normal"
+    },
+    "android.permission.USE_BIOMETRIC": {
+        "description": "Allows the app to use biometric hardware for authentication",
+        "label": "use biometric hardware",
+        "protection_lvl": "normal"
+    },
+    "com.mediatek.permission.CTA_ENABLE_WIFI": {
+        "description": "Allows the app to turn on WiFi.",
+        "label": "turn on WiFi",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_FINE_LOCATION": {
+        "description": "This app can get your location based on GPS or network location sources such as cell towers and Wi-Fi networks. These location services must be turned on and available on your phone for the app to be able to use them. This may increase battery consumption.",
+        "label": "access precise location (GPS and network-based)",
+        "protection_lvl": "dangerous|instant"
+    },
+    "com.google.android.gms.permission.CAR_SPEED": {
+        "description": "Access your car's speed",
+        "label": "car speed",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.ACCESS_COARSE_LOCATION": {
+        "description": "This app can get your location based on network sources such as cell towers and Wi-Fi networks. These location services must be turned on and available on your phone for the app to be able to use them.",
+        "label": "access approximate location (network-based)",
+        "protection_lvl": "dangerous|instant"
+    },
+    "android.permission.READ_EXTERNAL_STORAGE": {
+        "description": "Allows the app to read the contents of your SD card.",
+        "label": "read the contents of your SD card",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.WRITE_EXTERNAL_STORAGE": {
+        "description": "Allows the app to write to the SD card.",
+        "label": "modify or delete the contents of your SD card",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.RECORD_AUDIO": {
+        "description": "This app can record audio using the microphone at any time.",
+        "label": "record audio",
+        "protection_lvl": "dangerous|instant"
+    },
+    "android.permission.READ_SMS": {
+        "description": "This app can read all SMS (text) messages stored on your phone.",
+        "label": "read your text messages (SMS or MMS)",
+        "protection_lvl": "dangerous"
+    },
+    "com.mediatek.permission.CTA_SEND_MMS": {
+        "description": "Allows the app to send MMS messages. This may result in unexpected charges. Malicious apps may cost you money by sending messages without your confirmation.",
+        "label": "send MMS",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.RECEIVE_WAP_PUSH": {
+        "description": "Allows the app to receive and process WAP messages. This permission includes the ability to monitor or delete messages sent to you without showing them to you.",
+        "label": "receive text messages (WAP)",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.RECEIVE_MMS": {
+        "description": "Allows the app to receive and process MMS messages. This means the app could monitor or delete messages sent to your device without showing them to you.",
+        "label": "receive text messages (MMS)",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.RECEIVE_SMS": {
+        "description": "Allows the app to receive and process SMS messages. This means the app could monitor or delete messages sent to your device without showing them to you.",
+        "label": "receive text messages (SMS)",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.SEND_SMS": {
+        "description": "Allows the app to send SMS messages. This may result in unexpected charges. Malicious apps may cost you money by sending messages without your confirmation.",
+        "label": "send and view SMS messages",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.READ_CELL_BROADCASTS": {
+        "description": "Allows the app to read cell broadcast messages received by your device. Cell broadcast alerts are delivered in some locations to warn you of emergency situations. Malicious apps may interfere with the performance or operation of your device when an emergency cell broadcast is received.",
+        "label": "read cell broadcast messages",
+        "protection_lvl": "dangerous"
+    },
+    "com.mediatek.permission.CTA_ENABLE_BT": {
+        "description": "Allows the app to turn on Bluetooth.",
+        "label": "turn on Bluetooth",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.auth.api.phone.permission.SEND": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REAL_GET_TASKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_CACHE_FILESYSTEM": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.REMOTE_AUDIO_PLAYBACK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googlequicksearchbox.permission.LENSVIEW_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.apps.photos.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REGISTER_WINDOW_MANAGER_LISTENERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INTENT_FILTER_VERIFICATION_AGENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_INCALL_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.PROVIDE_RESOLVER_RANKER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.trustagent.framework.model.DATA_CHANGE_NOTIFICATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.WRITE_SETTINGS": {
+        "description": "Allows the app to modify the system's settings data. Malicious apps may corrupt your system's configuration.",
+        "label": "modify system settings",
+        "protection_lvl": "signature|appop|pre23|preinstalled"
+    },
+    "com.google.android.vending.verifier.ACCESS_VERIFIER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE": {
+        "description": "Allows the app to retrieve its install referrer information.",
+        "label": "Play Install Referrer API",
+        "protection_lvl": "normal"
+    },
+    "android.permission.CONTROL_KEYGUARD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_CAMERA": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_WALLPAPER_INTERNAL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.calendar.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CONFIGURE_WIFI_DISPLAY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CONFIGURE_DISPLAY_COLOR_MODE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_WIMAX_STATE": {
+        "description": "Allows the app to determine whether WiMAX is enabled and information about any WiMAX networks that are connected.",
+        "label": "connect and disconnect from WiMAX",
+        "protection_lvl": "normal"
+    },
+    "android.permission.SET_INPUT_CALIBRATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RECOVERY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.TEMPORARY_ENABLE_ACCESSIBILITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_PROCESS_LIMIT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.sitemaps": {
+        "description": "Allows apps to sign in to Google Webmaster Tools using the account(s) stored on this Android device.",
+        "label": "Google Webmaster Tools",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googlequicksearchbox.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_LOWPAN_CREDENTIAL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FRAME_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gm.permission.BROADCAST_INTERNAL": {
+        "description": "Allow the app to access Gmail broadcast intents, used to update notifications among other things.",
+        "label": "internal broadcast",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.APPINDEXING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BRICK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.c2dm.permission.RECEIVE": {
+        "description": "Allows apps to accept cloud to device messages sent by the app's service. Using this service will incur data usage. Malicious apps could cause excess data usage.",
+        "label": "receive data from Internet",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BIND_PRINT_RECOMMENDATION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RESTART_PACKAGES": {
+        "description": "Allows the app to end background processes of other apps. This may cause other apps to stop running.",
+        "label": "close other apps",
+        "protection_lvl": "normal"
+    },
+    "android.permission.STORAGE_INTERNAL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.USE_CREDENTIALS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.TABLET_MODE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.NOTIFICATION_DURING_SETUP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_KEYGUARD_APPWIDGET": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NETWORK_BYPASS_PRIVATE_DNS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.sierrasandbox": {
+        "description": "Allows apps to sign in to Google Checkout Sandbox using the account(s) stored on this Android device.",
+        "label": "Google Checkout Sandbox accounts",
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_SYSTEM_UPDATE_INFO": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_DEVICE_ADMIN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MODIFY_AUDIO_SETTINGS": {
+        "description": "Allows the app to modify global audio settings such as volume and which speaker is used for output.",
+        "label": "change your audio settings",
+        "protection_lvl": "normal"
+    },
+    "android.permission.ACCESS_CHECKIN_PROPERTIES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.KILL_UID": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer"
+    },
+    "android.permission.SIGNAL_PERSISTENT_PROCESSES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.BIND_PRINT_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_NOTIFICATION_POLICY": {
+        "description": "Allows the app to read and write Do Not Disturb configuration.",
+        "label": "access Do Not Disturb",
+        "protection_lvl": "normal"
+    },
+    "android.permission.ACTIVITY_EMBEDDING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.BIND_RUNTIME_PERMISSION_PRESENTER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MODIFY_AUDIO_ROUTING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.RECEIVE_BLUETOOTH_MAP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_MOCK_LOCATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.mediatek.ims.config.provider.PERMISSION.READ": {
+        "description": null,
+        "label": "IMS config provider read permission",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_VR_LISTENER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.GET_APP_OPS_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.RECEIVE_DATA_ACTIVITY_CHANGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.providers.gsf.permission.READ_GSERVICES": {
+        "description": "Allows this app to read Google service configuration data.",
+        "label": "read Google service configuration",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.setupwizard.WRITE_DEVICE_ORIGIN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.youtube.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_WIFI_CREDENTIAL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_DREAM_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.WRITE_GSERVICES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.printspooler.permission.ACCESS_ALL_PRINT_JOBS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INSTALL_LOCATION_PROVIDER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.voicesearch.AUDIO_FILE_ACCESS": {
+        "description": "Can access the recorded audio utterances for notes to self, and for raw audio analysis.",
+        "label": "Recorded audio access",
+        "protection_lvl": "signature"
+    },
+    "android.permission.USE_RESERVED_DISK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_RUNTIME_PROFILES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_ACCOUNTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.CONTROL_WIFI_DISPLAY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.ah": {
+        "description": "Allows apps to sign in to Google App Engine using the account(s) stored on this Android device.",
+        "label": "Google App Engine",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.cl": {
+        "description": "Allows apps to sign in to Google Calendar using the account(s) stored on this Android device.",
+        "label": "Google Calendar",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.cp": {
+        "description": "Allows apps to access the contacts and profile information of account(s) stored on this Android device.",
+        "label": "contacts data in Google accounts",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.ig": {
+        "description": "Allows apps to sign in to iGoogle using the account(s) stored on this Android device.",
+        "label": "iGoogle accounts",
+        "protection_lvl": "signature"
+    },
+    "android.permission.SYSTEM_ALERT_WINDOW": {
+        "description": "This app can appear on top of other apps or other parts of the screen. This may interfere with normal app usage and change the way that other apps appear.",
+        "label": "This app can appear on top of other apps",
+        "protection_lvl": "signature|development|appop|pre23|preinstalled"
+    },
+    "android.permission.INSTANT_APP_FOREGROUND_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|development|appop|instant"
+    },
+    "android.permission.BIND_CARRIER_SERVICES": {
+        "description": "Allows the holder to bind to carrier services. Should never be needed for normal apps.",
+        "label": "bind to carrier services",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.lh2": {
+        "description": "Allows apps to sign in to Picasa Web Albums using the account(s) stored on this Android device.",
+        "label": "Picasa Web Albums",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gsf.subscribedfeeds.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BROADCAST_PHONE_ACCOUNT_REGISTRATION": {
+        "description": null,
+        "label": "Broadcast phone account registration",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.START_TASKS_FROM_RECENTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NFC_TRANSACTION_EVENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "com.google.android.providers.talk.permission.WRITE_ONLY": {
+        "description": "Allows apps to write data to the Google Talk content provider.",
+        "label": "write instant messages",
+        "protection_lvl": "dangerous"
+    },
+    "android.permission.CONTROL_LOCATION_UPDATES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.gbase": {
+        "description": "Allows apps to sign in to Google Base using the account(s) stored on this Android device.",
+        "label": "Google Base",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.local": {
+        "description": "Allows apps to sign in to Google Maps using the account(s) stored on this Android device.",
+        "label": "Google Maps",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.orkut": {
+        "description": "Allows apps to sign in to Orkut using the account(s) stored on this Android device.",
+        "label": "Orkut",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.print": {
+        "description": "Allows apps to sign in to Google Book Search using the account(s) stored on this Android device.",
+        "label": "Google Book Search",
+        "protection_lvl": "signature"
+    },
+    "android.permission.GET_TOP_ACTIVITY_INFO": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.auth.authzen.permission.DEVICE_SYNC_FINISHED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.OTHER_SERVICES": {
+        "description": "Allows apps to sign in to unspecified Google services using the account(s) stored on this Android device.",
+        "label": "access other Google services",
+        "protection_lvl": "signature"
+    },
+    "android.permission.CLEAR_APP_USER_DATA": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer"
+    },
+    "com.google.android.xmpp.permission.USE_XMPP_ENDPOINT": {
+        "description": "Allows Google apps to send and receive XMPP messages to and from Google servers.",
+        "label": "send and receive XMPP messages to and from Google servers",
+        "protection_lvl": "signature"
+    },
+    "android.permission.PROVIDE_TRUST_AGENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "org.simalliance.openmobileapi.SYSTEM_TERMINAL": {
+        "description": "An app with this permission indicates that it is an OMAPI Terminal of the system.",
+        "label": "OMAPI System Terminal",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BROADCAST_CALLLOG_INFO": {
+        "description": null,
+        "label": "Broadcast the call type/duration information",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.chromesync.permission.CONTENT_PROVIDER_ACCESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INSTALL_PACKAGES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_SOUND_TRIGGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SEND_RESPOND_VIA_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.ims.providers.ACCESS_DATA": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "com.android.permission.WHITELIST_BLUETOOTH_DEVICE": {
+        "description": "Allows the app to temporarily whitelist a Bluetooth device, allowing that device to send files to this device without user confirmation.",
+        "label": "Whitelist bluetooth device access.",
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_FM_RADIO": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_VOICE_KEYPHRASES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SHUTDOWN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CHANGE_COMPONENT_ENABLED_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.CHECKIN_NOW": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_QUICK_SETTINGS_TILE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_TV_INPUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NFC": {
+        "description": "Allows the app to communicate with Near Field Communication (NFC) tags, cards, and readers.",
+        "label": "control Near Field Communication",
+        "protection_lvl": "normal"
+    },
+    "android.permission.MODIFY_PARENTAL_CONTROLS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.INTERNAL_SYSTEM_WINDOW": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.PROCESS_PHONE_ACCOUNT_REGISTRATION": {
+        "description": null,
+        "label": "Process phone account registration",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.RETRIEVE_WINDOW_TOKEN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_AUTOFILL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.learning.permission.LAUNCH_IN_APP_PROXY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.NETWORK_SETTINGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_AUDIO_POLICY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.writely": {
+        "description": "Allows apps to sign in to Google Docs using the account(s) stored on this Android device.",
+        "label": "Google Docs",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.SEND_ANDROID_PAY_DATA": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CHANGE_OVERLAY_PACKAGES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_WALLPAPER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.START_ANY_ACTIVITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CAMERA_SEND_SYSTEM_EVENTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.apps.now.OPT_IN_WIZARD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.auth.authzen.permission.GCM_DEVICE_PROXIMITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS": {
+        "description": "Allows the app to send notifications about completed downloads. Malicious apps can use this to confuse other apps that download files.",
+        "label": "Send download notifications.",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.GET_PROCESS_STATE_AND_OOM_SCORE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.BROADCAST_SMS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CALL_PRIVILEGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_INTENT_FILTER_VERIFIER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_APP_TOKENS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CHANGE_NETWORK_STATE": {
+        "description": "Allows the app to change the state of network connectivity.",
+        "label": "change network connectivity",
+        "protection_lvl": "normal"
+    },
+    "android.permission.CAPTURE_TV_INPUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MASTER_CLEAR": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FOREGROUND_SERVICE": {
+        "description": "Allows the app to make use of foreground services.",
+        "label": "run foreground service",
+        "protection_lvl": "normal|instant"
+    },
+    "android.permission.PERSISTENT_ACTIVITY": {
+        "description": "Allows the app to make parts of itself persistent in memory. This can limit memory available to other apps slowing down the phone.",
+        "label": "make app always run",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BIND_TELECOM_CONNECTION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.WRITE_SYNC_SETTINGS": {
+        "description": "Allows an app to modify the sync settings for an account. For example, this can be used to enable sync of the People app with an account.",
+        "label": "toggle sync on and off",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.providers.gsf.permission.WRITE_GSERVICES": {
+        "description": "Allows this app to modify Google service configuration data.",
+        "label": "Modify Google service configuration",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SET_DEBUG_APP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND": {
+        "description": "This app can use data in the background. This may increase data usage.",
+        "label": "use data in the background",
+        "protection_lvl": "normal"
+    },
+    "com.voltasit.obdeleven.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RESET_SHORTCUT_MANAGER_THROTTLING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.notebook": {
+        "description": "Allows apps to sign in to Google Notebook using the account(s) stored on this Android device.",
+        "label": "Google Notebook",
+        "protection_lvl": "signature"
+    },
+    "android.permission.RESET_FINGERPRINT_LOCKOUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.STATSCOMPANION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RECEIVE_BOOT_COMPLETED": {
+        "description": "Allows the app to have itself started as soon as the system has finished booting. This can make it take longer to start the phone and allow the app to slow down the overall phone by always running.",
+        "label": "run at startup",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.apps.inputmethod.latin.permission.UPDATE_STICKER_INDEX": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.TRANSFER_WIFI_CREDENTIAL": {
+        "description": "Allow an app to transfer a network's Wi-Fi credential to another device.",
+        "label": "Transfer Wi-Fi credential",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH": {
+        "description": "Allows apps to see the usernames (email addresses) of the Google account(s) you have configured.",
+        "label": "view configured accounts",
+        "protection_lvl": "signature"
+    },
+    "android.permission.LOOP_RADIO": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SUBSCRIBED_FEEDS_READ": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "com.google.android.gms.permission.NEARBY_START_DISCOVERER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.auth.permission.POST_SIGN_IN_ACCOUNT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_BIND_INSTANT_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES": {
+        "description": "Allows apps to sign in to ALL Google services using the account(s) stored on this Android device.",
+        "label": "access all Google services",
+        "protection_lvl": "signature"
+    },
+    "android.permission.PEERS_MAC_ADDRESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|setup"
+    },
+    "android.permission.DEVICE_POWER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.providers.settings.permission.READ_GSETTINGS": {
+        "description": "Allows this app to read Google settings.",
+        "label": "Read Google settings",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.cloudsave.BIND_EVENT_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.vending.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_TIME_ZONE": {
+        "description": "Allows the app to change the phone's time zone.",
+        "label": "set time zone",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.REMOVE_TASKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_PRINT_SERVICES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|preinstalled"
+    },
+    "android.permission.MANAGE_SUBSCRIPTION_PLANS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googlequicksearchbox.permission.PAUSE_HOTWORD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.EXPAND_STATUS_BAR": {
+        "description": "Allows the app to expand or collapse the status bar.",
+        "label": "expand/collapse status bar",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.setupwizard.READ_DEFERRED_SETUP_REASON": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.launcher.permission.UNINSTALL_SHORTCUT": {
+        "description": "Allows the application to remove Homescreen shortcuts without user intervention.",
+        "label": "uninstall shortcuts",
+        "protection_lvl": "normal"
+    },
+    "android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS": {
+        "description": "Allows apps to set the profile owners and the device owner.",
+        "label": "manage profile and device owners",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.REPORT_TAP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {
+        "description": "Allows an app to ask for permission to ignore battery optimizations for that app.",
+        "label": "ask to ignore battery optimizations",
+        "protection_lvl": "normal"
+    },
+    "android.permission.READ_PROFILE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.BIND_VOICE_INTERACTION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gtalkservice.permission.SEND_HEARTBEAT": {
+        "description": "Can send a heartbeat packet to the Google Talk server to ensure the health of the connection.",
+        "label": "Send heartbeat to Google Talk server",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.marvin.feedback.permission.TALKBACK": {
+        "description": "Permission to send gestures to TalkBack and resume spoken feedback.",
+        "label": "Control TalkBack",
+        "protection_lvl": "signature"
+    },
+    "android.permission.BLUETOOTH": {
+        "description": "Allows the app to view the configuration of the Bluetooth on the phone, and to make and accept connections with paired devices.",
+        "label": "pair with Bluetooth devices",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BROADCAST_WAP_PUSH": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE": {
+        "description": "Allows the app to receive packets sent to all devices on a Wi-Fi network using multicast addresses, not just your phone. It uses more power than the non-multicast mode.",
+        "label": "allow Wi-Fi Multicast reception",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.onetimeinitializer.permission.ONE_TIME_INITIALIZED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.DVB_DEVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.messages.rcs.PROVISIONING_EVENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.PERFORM_SIM_ACTIVATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.OPEN_APPLICATION_DETAILS_OPEN_BY_DEFAULT_PAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.android.alarm.permission.SET_ALARM": {
+        "description": "Allows the app to set an alarm in an installed alarm clock app. Some alarm clock apps may not implement this feature.",
+        "label": "set an alarm",
+        "protection_lvl": "normal"
+    },
+    "android.permission.CAPTURE_AUDIO_HOTWORD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.WRITE_MEDIA_STORAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CONTROL_DISPLAY_SATURATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.voicemail.permission.READ_VOICEMAIL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.WRITE_BLOCKED_NUMBERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_AMBIENT_LIGHT_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.SET_ANIMATION_SCALE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.google.android.gms.permission.AD_ID_NOTIFICATION": {
+        "description": "Allow an app to receive a notification when the advertising ID or limit ad tracking preference of the user is updated.",
+        "label": "Advertising ID notification",
+        "protection_lvl": "normal"
+    },
+    "com.android.vending.setup.PLAY_SETUP_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.WATCH_APPOPS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.GET_TASKS": {
+        "description": "Allows the app to retrieve information about currently and recently running tasks. This may allow the app to discover information about which applications are used on the device.",
+        "label": "retrieve running apps",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BIND_CACHE_QUOTA_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BROADCAST_NETWORK_PRIVILEGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_SURFACE_FLINGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SUBSCRIBED_FEEDS_WRITE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.AUTHENTICATE_ACCOUNTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.INTERNET": {
+        "description": "Allows the app to create network sockets and use custom network protocols. The browser and other applications provide means to send data to the internet, so this permission is not required to send data to the internet.",
+        "label": "have full network access",
+        "protection_lvl": "normal|instant"
+    },
+    "android.permission.BIND_RESOLVER_RANKER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.TV_INPUT_HARDWARE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.vending.INTENT_VENDING_ONLY": {
+        "description": "Can send broadcasts to Android Market requesting app installation and removal.",
+        "label": "Send broadcasts to Android Market.",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.knol": {
+        "description": "Allows apps to sign in to Knol using the account(s) stored on this Android device.",
+        "label": "Knol",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.mail": {
+        "description": "Allows apps to sign in to Google mail services using the account(s) stored on this Android device.",
+        "label": "Google mail",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.news": {
+        "description": "Allows apps to sign in to Google News using the account(s) stored on this Android device.",
+        "label": "Google News",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.talk": {
+        "description": "Allows apps to sign in to Google Talk using the account(s) stored on this Android device.",
+        "label": "Google Talk",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.wifi": {
+        "description": "Allows apps to sign in to Google Wi-Fi using the account(s) stored on this Android device.",
+        "label": "Google Wi-Fi",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.wise": {
+        "description": "Allows apps to sign in to Google Spreadsheets using the account(s) stored on this Android device.",
+        "label": "Google Spreadsheets",
+        "protection_lvl": "signature"
+    },
+    "android.permission.TRANSMIT_IR": {
+        "description": "Allows the app to use the phone's infrared transmitter.",
+        "label": "transmit infrared",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.gms.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RETRIEVE_WINDOW_CONTENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REORDER_TASKS": {
+        "description": "Allows the app to move tasks to the foreground and background. The app may do this without your input.",
+        "label": "reorder running apps",
+        "protection_lvl": "normal"
+    },
+    "android.permission.ACCESS_BROADCAST_RADIO": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.browser.permission.READ_HISTORY_BOOKMARKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "com.google.android.apps.work.oobconfig.ACCESS_FILES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.GET_INTENT_SENDER_INTENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.android.chrome.permission.CHILD_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.PHENOTYPE_OVERRIDE_FLAGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND": {
+        "description": "This app can run in the background. This may drain battery faster.",
+        "label": "run in the background",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BLUETOOTH_ADMIN": {
+        "description": "Allows the app to configure the local Bluetooth phone, and to discover and pair with remote devices.",
+        "label": "access Bluetooth settings",
+        "protection_lvl": "normal"
+    },
+    "android.permission.CONTROL_VPN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.UPDATE_DEVICE_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BLUETOOTH_STACK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BLUETOOTH_MAP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_PRECISE_PHONE_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.magictether.permission.CONNECTED_HOST_CHANGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_FINGERPRINT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser": {
+        "description": "Allows apps to see the YouTube username(s) associated with the Google account(s) stored on this Android device.",
+        "label": "YouTube usernames",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.partnersetup.permission.UPDATE_CLIENT_ID": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.CONTACTS_SYNC_DELEGATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.RECOVER_KEYSTORE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.androidsecure": {
+        "description": "Allows apps to sign in to Android services using the account(s) stored on this Android device.",
+        "label": "Android services",
+        "protection_lvl": "signature"
+    },
+    "android.permission.NET_ADMIN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.GAMES_DEBUG_SETTINGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RESTRICTED_VR_ACCESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|preinstalled"
+    },
+    "android.permission.CARRIER_FILTER_SMS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.setupwizard.SETUP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.permission.BROADCAST_DATA_MESSAGE": {
+        "description": "Can broadcast data messages received from the Internet to apps registered to listen for them.",
+        "label": "Broadcast data messages to apps.",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.WRITE_VERIFY_APPS_CONSENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ADVANCED_WIDGET_API": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.PERFORM_CDMA_PROVISIONING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.trustagent.permission.TRUSTAGENT_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_CONNECTION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer|verifier"
+    },
+    "android.permission.WRITE_SOCIAL_STREAM": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.ACCESS_INSTANT_APPS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer|verifier"
+    },
+    "android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.LAUNCH_TRUST_AGENT_SETTINGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.REGISTER_CALL_PROVIDER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.GET_PACKAGE_SIZE": {
+        "description": "Allows the app to retrieve its code, data, and cache sizes",
+        "label": "measure app storage space",
+        "protection_lvl": "normal"
+    },
+    "android.permission.MODIFY_THEME_OVERLAY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CLEAR_APP_GRANTED_URI_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.c2dm.permission.SEND": {
+        "description": "Can broadcast data messages received from the Internet to apps registered to listen for them.",
+        "label": "Broadcast data messages to apps.",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_VPN_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.systemui.IDENTITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.cmcc.ccs.WRITE_CCS_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.TRUST_LISTENER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCOUNT_MANAGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_USB": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.partnersetup.permission.WRITE_APP_PROVIDER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_ALL_DOWNLOADS": {
+        "description": "Allows the app to view and modify all downloads initiated by any app on the system.",
+        "label": "Access all system downloads",
+        "protection_lvl": "signature"
+    },
+    "android.permission.ALLOCATE_AGGRESSIVE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.INTERACT_ACROSS_USERS_FULL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer"
+    },
+    "android.permission.CHANGE_ACCESSIBILITY_VOLUME": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_APPWIDGET": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.STOP_APP_SWITCHES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.RECEIVE_MEDIA_RESOURCE_USAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BATTERY_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.google.android.gms.permission.INTERNAL_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.PACKAGE_USAGE_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development|appop"
+    },
+    "android.permission.WRITE_PROFILE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.MOUNT_UNMOUNT_FILESYSTEMS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.GET_ACCOUNTS_PRIVILEGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_PRINT_SERVICE_RECOMMENDATIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|preinstalled"
+    },
+    "android.permission.TETHER_PRIVILEGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.WRITE_SECURE_SETTINGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.android.vending.TOS_ACKED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SERIAL_PORT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_SCREENING_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FORCE_PERSISTABLE_URI_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.UNLIMITED_SHORTCUTS_API_CALLS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|textClassifier"
+    },
+    "android.permission.CAPTURE_AUDIO_OUTPUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_MIDI_DEVICE_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.finsky.permission.INSTANT_APP_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.grandcentral": {
+        "description": "Allows apps to sign in to Google Voice using the account(s) stored on this Android device.",
+        "label": "Google Voice",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.auth.proximity.permission.SMS_CONNECT_SETUP_REQUESTED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MOVE_PACKAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SET_ACTIVITY_WATCHER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_BLOCKED_NUMBERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.apps.wallpaper.NOTIFY_ROTATING_WALLPAPER_CHANGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.STATUS_BAR_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_SEARCH_INDEXABLES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.gd.mobicore.pa.permission.OEM_PERMISSION": {
+        "description": "This permission allows the application to remove the root container that is used by the secure OS (Mobicore). Removing the root container disables all the installed secure applications that are running on the secure OS so that they can not be executed before the rootcontainer and the applications are re-installed. Secure application is an application that is not running on the secure OS (Mobicore) rather than on the main os (Android). Android application the communites with it in order to perform some security critical tasks.",
+        "label": "remove installed secure services",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NFC_HANDOVER_STATUS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SCORE_NETWORKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.PROVISION_MANAGED_DEVICE_SILENTLY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|preinstalled"
+    },
+    "com.gd.mobicore.pa.permission.DEVELOPER_PERMISSION": {
+        "description": "This permission allows the application to install a secure application that is not controlled by any TSM (trusted service manager) and thus can only be removed by uninstalling (this) application that installed it. Secure application is an application that is not running on the secure OS (Mobicore) rather than on the main os (Android). Android application the communites with it in order to perform some security critical tasks.",
+        "label": "install developer trustlet",
+        "protection_lvl": "normal"
+    },
+    "android.permission.DIAGNOSTIC": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.jotspot": {
+        "description": "Allows apps to sign in to JotSpot using the account(s) stored on this Android device.",
+        "label": "JotSpot",
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS": {
+        "description": "Allows the app to access extra location provider commands. This may allow the app to interfere with the operation of the GPS or other location sources.",
+        "label": "access extra location provider commands",
+        "protection_lvl": "normal"
+    },
+    "android.permission.RECEIVE_WIFI_CREDENTIAL_CHANGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_PRIVILEGED_PHONE_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.GOOGLE_PAY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.UPDATE_LOCK_TASK_PACKAGES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|setup"
+    },
+    "android.permission.ACCESS_IMS_CALL_SERVICE": {
+        "description": "Allows the app to use the IMS service to make calls without your intervention.",
+        "label": "access IMS call service",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.TRIGGER_TIME_ZONE_RULES_CHECK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_DOWNLOAD_MANAGER": {
+        "description": "Allows the app to access the download manager and to use it to download files. Malicious apps can use this to disrupt downloads and access private information.",
+        "label": "Access download manager.",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BROADCAST_STICKY": {
+        "description": "Allows the app to send sticky broadcasts, which remain after the broadcast ends. Excessive use may make the phone slow or unstable by causing it to use too much memory.",
+        "label": "send sticky broadcast",
+        "protection_lvl": "normal"
+    },
+    "android.permission.INSTALL_PACKAGE_UPDATES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.chimera.permission.QUERY_MODULES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ASEC_ACCESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_REMOTE_DISPLAY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BLUETOOTH_PRIVILEGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NETWORK_STACK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.CAR": {
+        "description": "Access to the car service.",
+        "label": "Car Service",
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_ALWAYS_FINISH": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.android.companiondevicemanager.permission.BIND": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.HARDWARE_TEST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ASEC_CREATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.QUERY_TIME_ZONE_RULES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.apps.restore.RESET_FLOW_PERMISSION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.WRITE_SMS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.CONTROL_DISPLAY_BRIGHTNESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.xmpp.permission.BROADCAST": {
+        "description": "Can broadcast XMPP messages received from the Google servers to apps registered to listen for them.",
+        "label": "Broadcast XMPP messages to apps.",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.xmpp.permission.SEND_RECEIVE": {
+        "description": "Allows Google apps to send and receive XMPP messages to and from Google servers.",
+        "label": "send and receive XMPP messages to and from Google servers",
+        "protection_lvl": "signature"
+    },
+    "android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_AUTOFILL_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_KEYGUARD_SECURE_STORAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_JOB_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CONFIRM_FULL_BACKUP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CAPTURE_SECURE_VIDEO_OUTPUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SET_TIME": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.WRITE_APN_SETTINGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.xmpp.permission.XMPP_ENDPOINT_BROADCAST": {
+        "description": "Can broadcast XMPP messages received from the Google servers to apps.",
+        "label": "Broadcast XMPP messages to apps.",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.providers.settings.permission.WRITE_GSETTINGS": {
+        "description": "Allows this app to modify Google settings.",
+        "label": "Modify Google settings",
+        "protection_lvl": "signature"
+    },
+    "android.permission.CHANGE_WIFI_STATE": {
+        "description": "Allows the app to connect to and disconnect from Wi-Fi access points and to make changes to device configuration for Wi-Fi networks.",
+        "label": "connect and disconnect from Wi-Fi",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BIND_COMPANION_DEVICE_MANAGER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.adsense": {
+        "description": "Allows apps to sign in to Google AdSense using the account(s) stored on this Android device.",
+        "label": "AdSense",
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_PACKAGE_VERIFIER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_INSTALL_SESSIONS": {
+        "description": "Allows an application to read install sessions. This allows it to see details about active package installations.",
+        "label": "read install sessions",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.adwords": {
+        "description": "Allows apps to sign in to Google AdWords using the account(s) stored on this Android device.",
+        "label": "AdWords",
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_IPSEC_TUNNELS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|appop"
+    },
+    "android.permission.MODIFY_CELL_BROADCASTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MODIFY_DAY_NIGHT_MODE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_ROUTE_PROVIDER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RECEIVE_STK_COMMANDS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.GET_PASSWORD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_CARRIER_MESSAGING_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NETWORK_SETUP_WIZARD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|setup"
+    },
+    "android.permission.ACCESS_BLUETOOTH_SHARE": {
+        "description": "Allows the app to access the BluetoothShare manager and use it to transfer files.",
+        "label": "Access download manager.",
+        "protection_lvl": "signature"
+    },
+    "android.permission.OBSERVE_APP_USAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.PACKAGE_VERIFICATION_AGENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.apps.maps.permission.PREFETCH": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_ORIENTATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REVOKE_RUNTIME_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer|verifier"
+    },
+    "android.permission.BIND_EUICC_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_VISUAL_VOICEMAIL_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_USERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.vending.billing.BILLING_ACCOUNT_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gm.email.permission.ACCESS_PROVIDER": {
+        "description": "Allows the app to access your email database, including received messages, sent messages, usernames, and passwords.",
+        "label": "Access email provider data",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.contextmanager.CONTEXT_MANAGER_RESTARTED_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_PREFERRED_APPLICATIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|verifier"
+    },
+    "android.permission.BIND_TV_REMOTE_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FLASHLIGHT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.DELETE_CACHE_FILES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_NETWORK_STATE": {
+        "description": "Allows the app to view information about network connections such as which networks exist and are connected.",
+        "label": "view network connections",
+        "protection_lvl": "normal|instant"
+    },
+    "android.permission.BIND_CONDITION_PROVIDER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_DISPLAY_OFFSET": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_MTP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.DISABLE_KEYGUARD": {
+        "description": "Allows the app to disable the keylock and any associated password security. For example, the phone disables the keylock when receiving an incoming phone call, then re-enables the keylock when the call is finished.",
+        "label": "disable your screen lock",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BACKUP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.INTERNAL_DELETE_CACHE_FILES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.PROCESS_CALLLOG_INFO": {
+        "description": null,
+        "label": "Register to handle the broadcasted call type/duration information",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.youtube": {
+        "description": "Allows apps to sign in to YouTube using the account(s) stored on this Android device.",
+        "label": "YouTube",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.carsetup.DRIVING_MODE_MANAGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CHANGE_CONFIGURATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.USER_ACTIVITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.LOCAL_MAC_ADDRESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.SHOW_PAYMENT_CARD_DETAILS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_LOGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.google.android.apps.maps.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.apps.nbu.files.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.COPY_PROTECTED_DATA": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.magictether.permission.SCANNED_DEVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_AUTOFILL_FIELD_CLASSIFICATION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ASEC_DESTROY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INTERACT_ACROSS_USERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.SET_WALLPAPER": {
+        "description": "Allows the app to set the system wallpaper.",
+        "label": "set wallpaper",
+        "protection_lvl": "normal"
+    },
+    "android.permission.ASEC_RENAME": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.android": {
+        "description": "Allows apps to sign in to Android services using the account(s) stored on this Android device.",
+        "label": "Android services",
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_KEYBOARD_LAYOUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.finance": {
+        "description": "Allows apps to sign in to Google Finance using the account(s) stored on this Android device.",
+        "label": "Google Finance",
+        "protection_lvl": "signature"
+    },
+    "android.permission.USE_DATA_IN_BACKGROUND": {
+        "description": "This app can use data in the background. This may increase data usage.",
+        "label": "use data in the background",
+        "protection_lvl": "signature"
+    },
+    "android.permission.UPDATE_CONFIG": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_NETWORK_CONDITIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_NOTIFICATION_ASSISTANT_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_DREAM_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.QUERY_DO_NOT_ASK_CREDENTIALS_ON_BOOT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.dodgeball": {
+        "description": "Allows apps to sign in to Dodgeball using the account(s) stored on this Android device.",
+        "label": "Dodgeball",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.launcher.permission.RECEIVE_FIRST_LOAD_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.UPDATE_LOCK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.finsky.permission.DSE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.ACCESS_LOWPAN_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_NETWORK_USAGE_HISTORY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_DRM_CERTIFICATES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gsf.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.DISABLE_HIDDEN_API_CHECKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INSTALL_SELF_UPDATES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googlequicksearchbox.permission.FLUSH_LOGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_SOUND_TRIGGER_DETECTION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.TV_VIRTUAL_REMOTE_CONTROLLER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_APP_OPS_RESTRICTIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer"
+    },
+    "android.permission.READ_INPUT_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_LOWPAN_INTERFACES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.KILL_BACKGROUND_PROCESSES": {
+        "description": "Allows the app to end background processes of other apps. This may cause other apps to stop running.",
+        "label": "close other apps",
+        "protection_lvl": "normal"
+    },
+    "android.permission.MANAGE_USER_OEM_UNLOCK_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.CACHE_CONTENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REQUEST_NETWORK_SCORES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|setup"
+    },
+    "android.permission.ACCESS_VOICE_INTERACTION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SHOW_KEYGUARD_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_PRINT_SPOOLER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_DIRECTORY_SEARCH": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CHANGE_HDMI_CEC_ACTIVE_SOURCE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.GRANT_WALLPAPER_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.WRITE_USER_DICTIONARY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.REGISTER_SIM_SUBSCRIPTION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_SYNC_STATS": {
+        "description": "Allows an app to read the sync stats for an account, including the history of sync events and how much data is synced.",
+        "label": "read sync statistics",
+        "protection_lvl": "normal"
+    },
+    "android.permission.MANAGE_OWN_CALLS": {
+        "description": "Allows the app to route its calls through the system in order to improve the calling experience.",
+        "label": "route calls through the system",
+        "protection_lvl": "normal"
+    },
+    "android.permission.WRITE_DREAM_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FREEZE_SCREEN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_VR_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|preinstalled"
+    },
+    "android.permission.NOTIFY_TV_INPUTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.DOWNLOAD_CACHE_NON_PURGEABLE": {
+        "description": "Allows the app to download files to the download cache, which can't be automatically deleted when the download manager needs more space.",
+        "label": "Reserve space in the download cache",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.apps.maps.permission.TIMELINE_POST_VISIT_BADGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_SHORTCUTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|textClassifier"
+    },
+    "android.permission.BIND_TELEPHONY_NETWORK_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REBOOT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.DISPATCH_NFC_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.chimera.permission.CONFIG_CHANGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.health": {
+        "description": "Allows apps to sign in to Google Health using the account(s) stored on this Android device.",
+        "label": "Google Health",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.auth.permission.FACE_UNLOCK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MOUNT_FORMAT_FILESYSTEMS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.REQUEST_DELETE_PACKAGES": {
+        "description": "Allows an application to request deletion of packages.",
+        "label": "request delete packages",
+        "protection_lvl": "normal"
+    },
+    "android.permission.SUSPEND_APPS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.OEM_UNLOCK_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.REGISTER_CONNECTION_MANAGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_DEVICE_ADMINS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CLEAR_APP_CACHE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MODIFY_QUIET_MODE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CHANGE_APP_IDLE_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BRIGHTNESS_SLIDER_USAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.google.android.gms.trustagent.framework.model.DATA_ACCESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_TRUST_AGENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.mobile": {
+        "description": "Allows apps to sign in to Google mobile apps using the account(s) stored on this Android device.",
+        "label": "Google mobile apps",
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_DOCUMENTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.TEST_BLACKLISTED_PASSWORD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_PDB_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_NETWORK_POLICY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_REMOTEVIEWS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ASEC_MOUNT_UNMOUNT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.GRANT_RUNTIME_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer|verifier"
+    },
+    "android.permission.SET_POINTER_SPEED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CHANGE_BACKGROUND_DATA_SETTING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_CONTENT_RATING_SYSTEMS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_NOTIFICATIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.USE_COLORIZED_NOTIFICATIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|setup"
+    },
+    "com.android.systemui.permission.SELF": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.android.chrome.TOS_ACKED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.NET_TUNNELING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CONNECTIVITY_INTERNAL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FACTORY_TEST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_WALLPAPER_HINTS": {
+        "description": "Allows the app to set the system wallpaper size hints.",
+        "label": "adjust your wallpaper size",
+        "protection_lvl": "normal"
+    },
+    "android.permission.MANAGE_MEDIA_PROJECTION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.READ_SYNC_SETTINGS": {
+        "description": "Allows the app to read the sync settings for an account. For example, this can determine whether the People app is synced with an account.",
+        "label": "read sync settings",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.sierra": {
+        "description": "Allows apps to sign in to Google Checkout (and potentially make purchases) using the account(s) stored on this Android device.",
+        "label": "Google Checkout accounts",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.SHOW_TRANSACTION_RECEIPT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.speech": {
+        "description": "Allows apps to sign in to Google Voice Search using the account(s) stored on this Android device.",
+        "label": "Google Voice Search",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.partnersetup.permission.ACCESS_PROVIDER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.android.browser.permission.WRITE_HISTORY_BOOKMARKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "com.android.chrome.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_TELEPHONY_DATA_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BROADCAST_PACKAGE_REMOVED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.DISABLE_INPUT_DEVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.RUN_IN_BACKGROUND": {
+        "description": "This app can run in the background. This may drain battery faster.",
+        "label": "run in the background",
+        "protection_lvl": "signature"
+    },
+    "android.permission.OVERRIDE_WIFI_CONFIG": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.FORCE_STOP_PACKAGES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.mediatek.ims.config.provider.PERMISSION.WRITE": {
+        "description": null,
+        "label": "IMS config provider write permission",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_CA_CERTIFICATES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SET_MEDIA_KEY_LISTENER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer"
+    },
+    "android.permission.CAPTURE_VIDEO_OUTPUT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_NOTIFICATIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|appop"
+    },
+    "android.permission.VIBRATE": {
+        "description": "Allows the app to control the vibrator.",
+        "label": "control vibration",
+        "protection_lvl": "normal|instant"
+    },
+    "com.android.certinstaller.INSTALL_AS_USER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gsf.permission.CONNECTION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_ACCESSIBILITY_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MODIFY_ACCESSIBILITY_DATA": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.blogger": {
+        "description": "Allows apps to sign in to Blogger using the account(s) stored on this Android device.",
+        "label": "Blogger",
+        "protection_lvl": "signature"
+    },
+    "android.server.checkin.CHECKIN.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_ACTIVITY_STACKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "android.permission.UPDATE_TIME_ZONE_RULES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SEND_CALL_LOG_CHANGE": {
+        "description": null,
+        "label": "Broadcast that a change happened to the call log.",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.HDMI_CEC": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_INPUT_METHOD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INVOKE_CARRIER_SETUP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.REMOVE_DRM_CERTIFICATES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CHANGE_LOWPAN_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_USER_DICTIONARY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.FILTER_EVENTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.SAFETY_NET": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.speechpersonalization": {
+        "description": "Allows apps to sign in to the Personalized Speech Recognition service using the account(s) stored on this Android device.",
+        "label": "Personalized Speech Recognition",
+        "protection_lvl": "signature"
+    },
+    "android.permission.RECEIVE_EMERGENCY_BROADCAST": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.snapchat.android.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.providers.talk.permission.READ_ONLY": {
+        "description": "Allows apps to read data from the Google Talk content provider.",
+        "label": "read instant messages",
+        "protection_lvl": "dangerous"
+    },
+    "com.google.android.finsky.permission.GEARHEAD_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_TEXTCLASSIFIER_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.VIEW_INSTANT_APPS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|preinstalled"
+    },
+    "android.permission.CREATE_USERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_SLICE_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.googlehelp.LAUNCH_SUPPORT_SCREENSHARE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MODIFY_NETWORK_ACCOUNTING": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.common.internal.SHARED_PREFERENCES_PERMISSION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CRYPT_KEEPER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SEND_EMBMS_INTENTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.BIND_NFC_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.START_PRINT_SERVICE_CONFIG_ACTIVITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CONFIGURE_DISPLAY_BRIGHTNESS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.cmcc.ccs.READ_CCS_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "com.android.voicemail.permission.WRITE_VOICEMAIL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.SHOW_WARM_WELCOME_TAPANDPAY_APP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.apps.miphone.aiai.matchmaker.BIND_SERVICE": {
+        "description": "Allow apps to bind to AiAi Matchmaker service.",
+        "label": "Bind to AiAi Matchmaker service permission",
+        "protection_lvl": "normal"
+    },
+    "android.permission.GET_DETAILED_TASKS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.NOTIFY_PENDING_SYSTEM_UPDATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.DISPATCH_PROVISIONING_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MODIFY_APPWIDGET_BIND_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_WIFI_STATE": {
+        "description": "Allows the app to view information about Wi-Fi networking, such as whether Wi-Fi is enabled and name of connected Wi-Fi devices.",
+        "label": "view Wi-Fi connections",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.gms.permission.BROADCAST_TO_GOOGLEHELP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.finsky.permission.ACCESS_INSTANT_APP_NOTIFICATION_ENFORCEMENT": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.deskclock.permission.RECEIVE_ALERT_BROADCASTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.permission.READ_VALUABLES_IMAGES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.FORCE_BACK": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.groups2": {
+        "description": "Allows apps to sign in to Google Groups using the account(s) stored on this Android device",
+        "label": "Google Groups",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_APP_OPS_MODES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|installer|verifier"
+    },
+    "com.android.systemui.permission.PLUGIN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_BLUETOOTH_WHEN_PERMISSION_REVIEW_REQUIRED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_IMS_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|vendorPrivileged"
+    },
+    "android.permission.CHANGE_WIMAX_STATE": {
+        "description": "Allows the app to connect the phone to and disconnect the phone from WiMAX networks.",
+        "label": "change WiMAX state",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.gms.auth.authzen.permission.KEY_REGISTRATION_FINISHED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.CAMERA_DISABLE_TRANSMIT_LED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.REQUEST_INSTALL_PACKAGES": {
+        "description": "Allows an application to request installation of packages.",
+        "label": "request install packages",
+        "protection_lvl": "signature|appop"
+    },
+    "com.google.android.gms.magictether.permission.CLIENT_TETHERING_PREFERENCE_CHANGED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.setupwizard.READ_DEVICE_ORIGIN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.CONTROL_INCALL_EXPERIENCE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MODIFY_PHONE_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.smspush.WAPPUSH_MANAGER_BIND": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gm.email.permission.GET_WIDGET_UPDATE": {
+        "description": "Allows the app to receive notifications when the widget should be refreshed, including the account name and folder name.",
+        "label": "Update widget",
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_VR_MANAGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.as.allapps.SUGGESTION_CONSUMER": {
+        "description": "Allow apps to access the action suggest content providers.",
+        "label": "Reading/writing permission of action suggest content providers.",
+        "protection_lvl": "normal"
+    },
+    "com.google.android.gm.email.permission.UPDATE_AUTH_NOTIFICATION": {
+        "description": "Allows the app to display a notification when authentication fails.",
+        "label": "Update authentication notification",
+        "protection_lvl": "signature"
+    },
+    "android.permission.MANAGE_AUTO_FILL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googlequicksearchbox.LAUNCH_FROM_DSP_HOTWORD": {
+        "description": "Launch voice search from DSP hotword",
+        "label": "Launch voice search from DSP hotword",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.PACKET_KEEPALIVE_OFFLOAD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.launcher.permission.INSTALL_SHORTCUT": {
+        "description": "Allows an application to add Homescreen shortcuts without user intervention.",
+        "label": "install shortcuts",
+        "protection_lvl": "normal"
+    },
+    "android.permission.BIND_TEXT_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.STATUS_BAR": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_FRAME_BUFFER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SEND_SMS_NO_CONFIRMATION": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.gms.DRIVE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.DUMP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|development"
+    },
+    "com.google.android.googleapps.permission.GOOGLE_AUTH.sierraqa": {
+        "description": "Allows apps to sign in to Google Checkout QA using the account(s) stored on this Android device.",
+        "label": "Google Checkout QA accounts",
+        "protection_lvl": "signature"
+    },
+    "android.permission.GET_APP_GRANTED_URI_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.permission.REQUEST_SCREEN_LOCK_COMPLEXITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.LOCATION_HARDWARE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.marvin.talkback.permission.LABELING": {
+        "description": "Permission to access, modify, and delete custom labels spoken by TalkBack.",
+        "label": "Manage TalkBack custom labels",
+        "protection_lvl": "signature"
+    },
+    "com.google.android.googlequicksearchbox.LAUNCH_WITH_RECORDED_AUDIO": {
+        "description": "Launch voice with recorded audio",
+        "label": "Launch voice with recorded audio",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_SOCIAL_STREAM": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "normal"
+    },
+    "android.permission.WAKE_LOCK": {
+        "description": "Allows the app to prevent the phone from going to sleep.",
+        "label": "prevent phone from sleeping",
+        "protection_lvl": "normal|instant"
+    },
+    "com.google.android.gms.auth.cryptauth.permission.KEY_CHANGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.INJECT_EVENTS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED": {
+        "description": "Allows the app to access the download manager's advanced functions. Malicious apps can use this to disrupt downloads and access private information.",
+        "label": "Advanced download manager functions.",
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_SENSORS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.BIND_CHOOSER_TARGET_SERVICE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.snapchat.android.permission.UPDATE_STICKER_INDEX": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.UPDATE_APP_OPS_STATS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged|installer"
+    },
+    "com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_CARRIER_OEM_UNLOCK_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.ACCESS_INPUT_FLINGER": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.READ_OEM_UNLOCK_STATE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "com.android.vending.billing.ADD_CREDIT_CARD": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.SET_HARMFUL_APP_WARNINGS": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|verifier"
+    },
+    "org.simalliance.openmobileapi.BIND_TERMINAL": {
+        "description": "An app with this permission can bind to the System's OMAPI Terminals. Only SmartcardService should use it.",
+        "label": "Bind OMAPI Terminal",
+        "protection_lvl": "signature|privileged"
+    },
+    "com.google.android.apps.docs.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "android.permission.SET_SCREEN_COMPATIBILITY": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gtalkservice.permission.GTALK_SERVICE": {
+        "description": "Used for server cloud to device messages and for sync notifications. Google Talk uses this service to exchange messages and to synchronize presence status. Malicious apps could use this service to transmit excess data.",
+        "label": "Exchanges messages and receives sync notifications from Google servers.",
+        "protection_lvl": "signature"
+    },
+    "android.permission.MEDIA_CONTENT_CONTROL": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.DELETE_PACKAGES": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature|privileged"
+    },
+    "android.permission.MANAGE_WIFI_WHEN_PERMISSION_REVIEW_REQUIRED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.magictether.permission.DISABLE_SOFT_AP": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.calendar.permission.READ_OOBE": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    },
+    "com.google.android.gms.chromesync.permission.METADATA_UPDATED": {
+        "description": null,
+        "label": null,
+        "protection_lvl": "signature"
+    }
+}

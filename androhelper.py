@@ -63,7 +63,10 @@ class AndroHelper:
 
                         except Exception as e:
                             continue
-
+                print(self.packed_files)
+                print(dangerous_perms)
+                print(file)
+                self.packed_files[self.a.get_package()] = {}
                 self.packed_files[self.a.get_package()][file] = dangerous_perms
 
         return {"packed_file": self.packed_files, "detected_malware": self.detected_malware}

@@ -20,6 +20,9 @@ aapt_path = "aapt2"
 MAX_NB_THREADS = 8
 nb_threads = 4
 
+with open('permissions.json') as json_file :
+    perms = json.load(json_file)
+
 
 def download_apk(url, filename):
     req = requests.get(url, allow_redirects=True)
@@ -50,8 +53,10 @@ def search_dl_app(app_name, output_file):
     req = requests.get(url_app, allow_redirects=True)
 
     soup = BeautifulSoup(req.text, 'html.parser')
-
-    download_link = soup.findAll(id="download_link")[0]["href"]
+    try:
+        download_link = soup.findAll(id="download_link")[0]["href"]
+    except IndexError as e:
+        return
 
     if DEBUG:
         print("[DEBUG] DOWNLOAD LINK: " + download_link)
@@ -72,10 +77,10 @@ def process(file_apps_name, out_directory, nb_threads):
         lines = m.read().decode("utf-8").strip().split("\n")
 
     with ThreadPoolExecutor(max_workers=nb_threads) as executor:
-        results = {executor.submit(search_dl_app, re.sub('\W+', ' ', app_name), re.sub('\W+', ' ', app_name) +".apk"):
-                        app_name for app_name in lines}
-        for res in as_completed(results):
-            print(res.result())
+        results = {executor.submit(search_dl_app, re.sub('\W+', ' ', app_name), re.sub('\W+', '_', app_name) +".apk"):
+                        app_name for app_name in lines if not app_name.startswith("#")}
+    for res in as_completed(results):
+        print(res.result())
 
 
 def dump_info(aapt_path, apk_path):
@@ -83,10 +88,25 @@ def dump_info(aapt_path, apk_path):
 
     apk_utils = APKUtils(aapt_path)
     output_permissions = apk_utils.aapt_dump_apk("permissions", apk_path)
-    info["permissions"] = APKUtils.get_permissions(output_permissions)
+    output_badging = apk_utils.aapt_dump_apk("badging", apk_path)
+    try:
+        info["package_name"] = APKUtils.get_app_package_name(output_permissions)
+    except Exception as e:
+        print(e)
 
-    andro_helper = AndroHelper(apk_path, apk_path+".out")
-    info["malware"] = andro_helper.analyze()
+    info["permissions"] = APKUtils.get_permissions(output_permissions)
+    info["supported_arch"] = APKUtils.get_supported_architectures(output_badging)
+
+    with open("perms.json", "r+") as f:
+        perms_infos = json.load(f)
+
+    for permission in info["permissions"]:
+        break
+    try:
+        andro_helper = AndroHelper(apk_path, apk_path+".out")
+        info["malware"] = andro_helper.analyze()
+    except Exception as e:
+        print(e)
 
     if len(info["malware"]["packed_file"]):
         print("WARNING: %s contains packed apk(s)" % apk_path)

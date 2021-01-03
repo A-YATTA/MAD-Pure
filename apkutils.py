@@ -49,16 +49,21 @@ class APKUtils:
     """
 
     @staticmethod
-    def get_app_package_version(aapt_badging_output):
-        return aapt_badging_output.split("versionName='")[1].split("'")[0]
+    def get_app_package_version(aapt_output):
+        return aapt_output.split("versionName='")[1].split("'")[0]
 
     """
     "aaptPermissionOutput" is the output of the command "aapt dump permissions my-app.apk" else it will fail
     """
 
     @staticmethod
-    def get_app_package_name(aapt_badging_output):
-        return aapt_badging_output.split("name='")[1].split("'")[0]
+    def get_app_package_name(aapt_output):
+        output = aapt_output.split("\n")[0].split(":'")[1]
+        print(output)
+        if len(output) > 0:
+            return output[0]
+
+        return ""
 
     @staticmethod
     def get_permissions(aapt_permission_output):
