@@ -15,7 +15,7 @@ DEBUG = False
 URL = "https://apkpure.com"
 
 out_dir = "temp"
-file_list_apks = "apps_names_example.txt"
+file_list_apps = ""
 aapt_path = "aapt2"
 MAX_NB_THREADS = 8
 nb_threads = 4
@@ -122,9 +122,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="MAD-Pure",
                                      formatter_class=argparse.RawTextHelpFormatter)
 
-    parser.add_argument('-f', '--file', dest="file_list_apks",
-                        help='File with applications name. Default: ' + file_list_apks,
-                        default=file_list_apks, required=True)
+    parser.add_argument('-f', '--file', dest="file_list_apps",
+                        help='File with applications name',
+                        required=True)
 
     parser.add_argument('-o', '--out-dir', dest="out_dir",
                         help='Directory where apks will be stored. Default: ' + out_dir,
@@ -138,11 +138,11 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.file_list_apks:
-        file_list_apks = args.file_list_apks
+    if args.file_list_apps:
+        file_list_apps = args.file_list_apps
 
-    if not os.path.isfile(file_list_apks):
-        print("File %s does not exist." % file_list_apks)
+    if not os.path.isfile(file_list_apps):
+        print("File %s does not exist." % file_list_apps)
         exit(-1)
 
     if args.out_dir:
@@ -156,4 +156,4 @@ if __name__ == "__main__":
         if nb_threads < 0 or nb_threads > MAX_NB_THREADS:
             print("Max threads to use is %s" % MAX_NB_THREADS)
 
-    process(file_list_apks, out_dir, nb_threads)
+    process(file_list_apps, out_dir, nb_threads)

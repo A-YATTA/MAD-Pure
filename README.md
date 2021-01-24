@@ -28,8 +28,8 @@ MAD-Pure
 
 optional arguments:
   -h, --help            show this help message and exit
-  -f FILE_LIST_APKS, --file FILE_LIST_APKS
-                        File with applications name. Default: apps_names_example.txt
+  -f FILE_LIST_APPS, --file FILE_LIST_APPS
+                        File with applications name.
   -o OUT_DIR, --out-dir OUT_DIR
                         Directory where apks will be stored. Default: temp
   -a AAPT_PATH, --aapt2-path AAPT_PATH
@@ -40,6 +40,13 @@ optional arguments:
 If aapt2 is in your PATH env var you don't have to specify it, by default the script will look in PATH var.
 
 OUT_DIR is the output directory, by default: temp
+
+FILE_LIST_APPS should be as follows:
+```
+app name 1
+app name 2
+app name 3
+```
 
 ## Tests
 Tested on Linux 
