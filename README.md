@@ -1,6 +1,6 @@
 # Mass Apk Download - Pure
 
-`MAD-Pure` is a multithreaded Python script that download a list of APKs from [APKPure](https://apkpure.com/) and analyze them using androguard and pwnlibs.
+`MAD-Pure` is a multi-threaded Python script that download a list of APKs from [APKPure](https://apkpure.com/) and analyze them using androguard and pwnlibs.
 
 ## Requirements
 `MAD-Pure` is written in Python 3 (and therefore **requires a minimum of `Python 3.6`**) in addition to the following libraries:
@@ -41,19 +41,8 @@ If aapt2 is in your PATH env var you don't have to specify it, by default the sc
 
 OUT_DIR is the output directory, by default: temp
 
-Please consider using a small NB_THREADS to do not impact the availability of APKPure, also a big number of threads will 
-slow down the computer as Androguard and pwntools can be resource intensive depending on the APK to analyze.
-
 ## Tests
-Tested on Linux only 
+Tested on Linux 
 
-## Participation
+## Contribution
 If you have any idea how to improve this tool please create an issue or send a pull request.
-
-If any malware or suspicious application is detected:
- - create an issue with the name of the application and it will be analyzed and a profile will be created to detect it
- - send a pull request for a new malware profile
-
-## Support 
-[![Coffee](https://img.buymeacoffee.com/button-api/?text=Support&emoji=&slug=secthetech&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/secthetech)
-[![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/secthetech)

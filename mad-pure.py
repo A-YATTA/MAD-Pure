@@ -20,7 +20,7 @@ aapt_path = "aapt2"
 MAX_NB_THREADS = 8
 nb_threads = 4
 
-with open('permissions.json') as json_file :
+with open('perms.json') as json_file :
     perms = json.load(json_file)
 
 
@@ -90,7 +90,7 @@ def dump_info(aapt_path, apk_path):
     output_permissions = apk_utils.aapt_dump_apk("permissions", apk_path)
     output_badging = apk_utils.aapt_dump_apk("badging", apk_path)
     try:
-        info["package_name"] = APKUtils.get_app_package_name(output_permissions)
+        info["package_name"] = APKUtils.get_app_package_name(output_permissions.strip())
     except Exception as e:
         print(e)
 
@@ -100,8 +100,6 @@ def dump_info(aapt_path, apk_path):
     with open("perms.json", "r+") as f:
         perms_infos = json.load(f)
 
-    for permission in info["permissions"]:
-        break
     try:
         andro_helper = AndroHelper(apk_path, apk_path+".out")
         info["malware"] = andro_helper.analyze()
@@ -114,10 +112,11 @@ def dump_info(aapt_path, apk_path):
     for malware, found in info["malware"]["detected_malware"].items():
         if found > 0:
             print("ALERT: %s is probably a %s" % (apk_path, malware))
-
-    with open(apk_path+".out/report.json", 'w') as file:
-        file.write(json.dumps(info, indent=4, sort_keys=True))
-
+    try:
+        with open(apk_path+".out/report.json", 'w') as file:
+            file.write(json.dumps(info, indent=4, sort_keys=True))
+    except FileNotFoundError as e:
+        print(apk_path + " failed.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="MAD-Pure",
@@ -125,7 +124,7 @@ if __name__ == "__main__":
 
     parser.add_argument('-f', '--file', dest="file_list_apks",
                         help='File with applications name. Default: ' + file_list_apks,
-                        default=file_list_apks)
+                        default=file_list_apks, required=True)
 
     parser.add_argument('-o', '--out-dir', dest="out_dir",
                         help='Directory where apks will be stored. Default: ' + out_dir,

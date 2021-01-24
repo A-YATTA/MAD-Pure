@@ -7,7 +7,7 @@ from malware.anubis import Anubis
 from malware.actionSpy import ActionSpy
 from malware.wolfRat import WolfRat
 
-PERMISSIONS_FILE = "permissions.json"
+PERMISSIONS_FILE = "perms.json"
 
 
 class AndroHelper:
